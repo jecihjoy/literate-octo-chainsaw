@@ -237,7 +237,7 @@
         <filter-name>compressionFilter</filter-name>
         <url-pattern>*.xsn</url-pattern>
     </filter-mapping>
-
+	<!--START -->
 	<filter>
 		<filter-name>javamelody</filter-name>
 		<filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
@@ -249,6 +249,7 @@
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>ASYNC</dispatcher>
 	</filter-mapping>
+	<!--END -->
 	
 	<filter>
 		<filter-name>jspClassLoader</filter-name> 

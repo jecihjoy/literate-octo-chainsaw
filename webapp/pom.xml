@@ -290,6 +290,7 @@
                     <version>5.0.11</version>
                     <scope>compile</scope>
                 </dependency>
+                <!--START -->
                 <dependency>
                   <groupId>net.bull.javamelody</groupId>
                   <artifactId>javamelody-core</artifactId>
@@ -315,6 +316,7 @@
                      </exclusion>
                   </exclusions>
                </dependency>
+               <!--END -->
             </dependencies>
         </profile>
         

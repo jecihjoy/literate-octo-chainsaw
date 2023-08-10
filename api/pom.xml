@@ -291,11 +291,13 @@
 			<groupId>org.testcontainers</groupId>
 			<artifactId>mysql</artifactId>
 		</dependency>
+		<!--START -->
 		<dependency>
 			<groupId>net.bull.javamelody</groupId>
 			<artifactId>javamelody-core</artifactId>
 			<version>1.71.0</version>
 		</dependency>
+		<!--END -->
 	</dependencies>
 	<build>
 		<resources>
